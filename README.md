@@ -20,10 +20,10 @@ python sms.py
 
 ## Project Structure
 sms
- └── students
-      ├── Rahul object
-      ├── Priya object
-      ├── Aman object 
+  ---students
+        - Rahul object
+        - Priya object
+        - Aman object 
 
 * `student.py` → Main program file
 * `README.md` → Project documentation
