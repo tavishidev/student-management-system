@@ -1,24 +1,5 @@
 '''STUDENT MANAGEMENT SYSTEM USING OOPS'''
 
-'''The system should allow the user to :
-Add a new student
-view all student
-search for a student using Student ID 
-update a student's marks
-delete a student record.
-dispaly the student with the highest marks.
-exit the application.
-
-student details: STUDENT ID, STUDENT NAME, AGE, MARKS'''
-
-#####structure will be like this (for my own convenience)#####
-'''sms
- └── students
-      ├── Rahul object
-      ├── Priya object
-      ├── Aman object'''
-
-
 class Student:
      def __init__(self,Student_id,name,age,marks):
         self.Student_id=Student_id
@@ -32,8 +13,6 @@ class Student:
         print("age=",self.age)
         print("marks=",self.marks)
        
-
-
 class Studentmanagementsystem:
      def __init__(self):
          self.students=[]
