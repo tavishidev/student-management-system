@@ -19,13 +19,13 @@ python sms.py
 ```
 
 ## Project Structure
-`text
+```text
 sms
  └── students
       ├── Rahul object
       ├── Priya object
       ├── Aman object 
-`
+```
 
 * `student.py` → Main program file
 * `README.md` → Project documentation
